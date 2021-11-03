@@ -49,16 +49,19 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
+
 /* HEADER / NAVBAR STYLES END */
+
+
 
 /* FOOTER STYLES START */
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -90,6 +93,21 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 .hero-form {
@@ -130,21 +148,6 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
-
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
 /* HERO STYLES END */
 
 
@@ -203,22 +206,11 @@ section {
   flex: 1 30%;
 }
 
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
-}
-
 .step-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
 }
 
 .step-img {
@@ -233,6 +225,18 @@ section {
 .step-text {
   flex: 12;
 }
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -246,14 +250,13 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
-  width: 35%;
-  float: left;
+  width: 100%;
 }
 
 .trainer-bio {
@@ -316,10 +319,6 @@ section {
   font-style: normal;
 }
 
-.contact-info a {
-  color: #fce138;
-}
-
 .contact-form input, .contact-form textarea {
   border: 1px solid #024e76;
   display: block;
@@ -339,6 +338,10 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+.contact-info a {
+  color: #fce138;
 }
 
 
